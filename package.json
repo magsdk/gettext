@@ -1,0 +1,30 @@
+{
+    "name": "mag-gettext",
+    "version": "0.0.1",
+    "description": "Application localization tools.",
+    "author": {
+        "name": "Igor Zaporozhets",
+        "email": "deadbyelpy@gmail.com"
+    },
+    "scripts": {
+        "lint": "eslint .",
+        "test": "npm run lint",
+        "jsdoc": "jsdoc --destination docs *.js readme.md"
+    },
+    "dependencies": {
+        "cjs-emitter": "^1.5.0",
+        "cjs-gettext": "^1.0.2"
+    },
+    "devDependencies": {
+        "jsdoc": "^3.5.5",
+        "mag-eslint": "^1.0.1"
+    },
+    "keywords": [
+        "mag",
+        "magsdk",
+        "framework",
+        "gettext",
+        "localization"
+    ],
+    "license": "MIT"
+}
